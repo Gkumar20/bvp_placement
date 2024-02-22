@@ -19,25 +19,6 @@ export default function Placement() {
               </ul>
             </div>
           </li>
-          <li className="mb-1">
-            <button className="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-              <strong>Academic Year</strong>
-            </button>
-            <div className="collapse" id="dashboard-collapse">
-              <ul className="btn-toggle-nav list-unstyled fw-normal pb-1 small mx-3">
-                <li><a href="/" className="link-dark d-inline-flex text-decoration-none rounded">2020-24</a></li>
-                <li><a href="/" className="link-dark d-inline-flex text-decoration-none rounded">2019-23</a></li>
-                <li><a href="/" className="link-dark d-inline-flex text-decoration-none rounded">2018-22</a></li>
-                <li><a href="/" className="link-dark d-inline-flex text-decoration-none rounded">2017-21</a></li>
-              </ul>
-            </div>
-          </li>
-          <li className="mb-1">
-            <button className="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-              <strong>Company</strong>
-            </button>
-          </li>
-          <li className="border-top mx-3"></li>
           <li className="mb-1 fixed-bottom mx-4">
             <button className="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
               <strong>Account</strong>
